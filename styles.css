@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+body{
+    font-family: 'B612', sans-serif;
+    margin: 0;
+    border: none;
+}
+.navigation{
+    background-color: #0f1123;
+    margin: 0px;
+    height: 5rem;
+    padding: 1rem;
+    width:auto;
+
+}
+.links{
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.list-item-inline{
+    display: inline;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.navigation .nav-pill{
+    color: white;
+    display:inline;
+    text-align: right;
+    margin: auto;
+    padding-right: 0rem;
+    float: right;
+    padding: 1rem;
+}
