@@ -4,14 +4,15 @@ body{
     font-family: 'B612', sans-serif;
     margin: 0;
     border: none;
+    
 }
 .navigation{
     background-color: #0f1123;
     margin: 0px;
-    height: 5rem;
+    height: 3rem;
     padding: 1rem;
     width:auto;
-
+    border-bottom-left-radius:1rem ;
 }
 .links{
     text-decoration: none;
@@ -24,7 +25,7 @@ body{
 .list-non-bullet{
     list-style: none;
 }
-.navigation .nav-pill{
+.nav-pill{
     color: white;
     display:inline;
     text-align: right;
@@ -32,4 +33,26 @@ body{
     padding-right: 0rem;
     float: right;
     padding: 1rem;
+}
+.container{
+    padding: 2rem;
+    padding-left: 15rem;
+    align-items: center;
+}
+.under-img{
+    text-align:center ;
+    color: #0f1123;
+    font-size: larger;
+    font-display:inherit;
+    font-weight:bolder;
+}
+.header-image{
+    
+    padding-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 10rem;
+    padding: 1rem;
+    display: block;
 }
