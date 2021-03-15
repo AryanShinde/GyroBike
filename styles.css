@@ -42,11 +42,11 @@ nav ul li a{
     text-decoration: none;
     color: black;
     font-size: bold;
-    font-size: larg;
+    font-size: large;
 
 }
 nav ul li a:hover{
-    color: #98ded9
+    color: #4DA8DA
 
 }
 .row{
@@ -149,6 +149,10 @@ hr{
     #menu-list{
         overflow: hidden;
         transition: 0.8s;
+    }
+    nav ul li a:hover{
+        color: black
+    
     }
     
 
