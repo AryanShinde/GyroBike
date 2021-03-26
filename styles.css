@@ -11,8 +11,8 @@ body{
 {
     width: 100%;
     min-height: 100vh;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -46,7 +46,7 @@ nav ul li a{
 
 }
 nav ul li a:hover{
-    color: #4DA8DA
+    color: #B0B0B0;
 
 }
 .row{
@@ -136,14 +136,12 @@ button:hover{
     border-radius: 1rem;
 }
 .container-2{
-    width: 100%;
+    width: 95%;
     height: auto;
     box-sizing: border-box;
     overflow: hidden;
     align-items: center;
     margin: auto;
-    padding-left: 2rem;
-    padding-right: 0rem;
     border-color: #282828;
     border-top-width: 0.6rem;
     background-size: 100px;
@@ -175,12 +173,14 @@ hr{
 }
 .centered{
 position: absolute;
-top: 55%;
+top: 56%;
 left: 50%;
 text-align: center;
 transform: translate(-50%, -50%);
 font-size: xx-large;
-color: 	#B0B0B0;
+color: 	#F0F0F0;
+padding-right: 2rem;
+font-weight: bold;
 }
 .centered-top
 {
@@ -189,6 +189,8 @@ color: 	#B0B0B0;
     bottom: 80%;
     color: #282828;
     font-size:26px;
+    padding: 0 2rem;
+    font-style: italic;
     
 
 }
@@ -204,7 +206,7 @@ color: 	#B0B0B0;
 }
 .bg-img
 {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 @media only screen and (max-width:700px){
     nav ul{
@@ -240,7 +242,13 @@ color: 	#B0B0B0;
     }
     .centered-top
     {
-        display: none;
+        display: block;
+        font-size: 15px;
+    }
+    .centered
+    {
+        font-size: 20px;
+        top:54%;
     }
     
 
