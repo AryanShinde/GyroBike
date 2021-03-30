@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
 
+
 body{
     font-family: 'B612', sans-serif;
     margin: 0;
     border: none;
     padding: 0;
+    color-scheme: dark;
     
 }
 .container
@@ -20,7 +22,6 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-
 }
 .menu{
     cursor: pointer;
@@ -31,6 +32,7 @@ body{
 nav{
     text-align: right;
     flex: 1;
+    
 }
 nav ul li{
     list-style: none;
@@ -92,7 +94,7 @@ button{
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(#282828,	#B0B0B0);
+    background: linear-gradient(120deg ,#111111 ,70%,	#555555);
     border-radius: 100px;
     cursor: pointer;
     transition: width 0.8s;
@@ -162,8 +164,8 @@ button:hover{
 }
 hr{
     width: 100%;
-    height: 10px;
-    background: linear-gradient(#282828,	#B0B0B0);
+    height: 4px;
+    background: linear-gradient(120deg ,#111111 ,70%,	#555555);
 }
 .bg-img
 {
@@ -209,9 +211,13 @@ font-weight: bold;
     opacity: 0.8;
 }
 @media only screen and (max-width:700px){
+    html
+{
+    font-size: 18px;
+}
     nav ul{
         width: 100%;
-        background: linear-gradient(#282828,	#B0B0B0);
+        background:linear-gradient(120deg ,#111111 ,70%,	#555555);
         position: absolute;
         top:50px;
         right: 0;
@@ -250,6 +256,8 @@ font-weight: bold;
         font-size: 20px;
         top:54%;
     }
-    
+    .col-2 img{
+        height: 190px;
+    }
 
 }
