@@ -6,10 +6,7 @@ body{
     margin: 0;
     border: none;
     padding: 0;
-    color-scheme: dark;
     scroll-behavior: smooth;
-
-    
 }
 .container
 {
@@ -30,6 +27,9 @@ body{
     width: 25px;
     display: none;
     padding-top: 1rem;
+}
+.head-text{
+    font-family:poppins;
 }
 nav{
     text-align: right;
@@ -184,20 +184,25 @@ hr{
 }
 .bg-img
 {
-    width: 100%;
-    margin: auto;
-    height: 15%;
+    width: 105%;
+    margin: 0;
+    height: 10%;
+    margin-left: -40px;
+    margin-right: -40px;
+    position: relative;
 }
 .centered{
 position: absolute;
-top: 56%;
-left: 50%;
+top: 10%;
+left: 55%;
 text-align: center;
 transform: translate(-50%, -50%);
-font-size: xx-large;
-color: 	#F0F0F0;
+font-size: large;
+color: 	black;
 padding-right: 2rem;
 font-weight: bold;
+font-size: 60px;
+font-family: poppins;
 }
 .centered-top
 {
@@ -221,14 +226,29 @@ font-weight: bold;
   width: 100%;
   padding-left: 0%;
   padding-right: 0%;
-
-
-  
 }
-.bg-img
+.container-1:hover{
+    background-color: #F0F0F0 ;
+    cursor: pointer;
+}
+.container-2:hover{
+    background-color: #F0F0F0 ;
+}
+
+.footer
 {
-    opacity: 0.7;
+    display: block;
+    background-color: gray;
+    color: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: -80px;
+    text-align: center;
 }
+
+
 @media only screen and (max-width:700px){
     html
 {
@@ -280,8 +300,9 @@ font-weight: bold;
     }
     .centered
     {
-        font-size: 20px;
-        top:54%;
+        font-size: 15px;
+        top:10%;
+        left: 55%;
     }
     .col-2 img{
         height: 170px;
@@ -292,5 +313,6 @@ font-weight: bold;
     .flexbox-1{
         flex-wrap: wrap;
     }
+   
 
 }
