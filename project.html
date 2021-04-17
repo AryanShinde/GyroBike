@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Project | GyroBSike</title>
+</head>
+
+<body>
+    <div class="container">
+
+    <div class="navbar">
+
+        <nav>
+            <ul id="menu-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Our project</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.png" class="menu" onclick="togglemenu()">
+    </div><br>
+    <hr>
+
+
+    <h1 style="text-align: center; width: 100%; ">Our 3-D Project</h1>
+
+    <div class="slideshow">
+    <img class="mySlides" style="height:40%;" src="images/model.jpg">
+    <img class="mySlides" src="images/model.jpg">
+    <img class="mySlides" style="height: 40%;" src="images/bike1.png">
+    <img class="mySlides" src="images/arrow.png.jpg">
+    </div>
+
+    <button class="w3-button w3-display-left slideshow" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right slideshow" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+    <script>
+
+        var menulist = document.getElementById("menu-list");
+        menulist.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "225px"
+            } else {
+                menulist.style.maxHeight = "0px"
+            }
+        }
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>

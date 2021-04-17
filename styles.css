@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300&family=Montserrat:wght@300&display=swap');
+
 
 
 body{
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     border: none;
     padding: 0;
@@ -52,6 +53,15 @@ nav ul li a{
 nav ul li a:hover{
     color: #B0B0B0;
 
+}
+.slideshow
+{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 5%;
 }
 .row{
     display: flex;
@@ -238,16 +248,42 @@ font-family: poppins;
 .footer
 {
     display: block;
-    background-color: gray;
+    background-color: #232b2b;
     color: blanchedalmond;
     margin: 0px;
     padding: 0px;
-    height: 150px;
+    height: 450px;
     margin-top: 40px;
     margin-bottom: -80px;
     text-align: center;
 }
 
+
+.flex-footer
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.left-content
+{
+    justify-content: left;
+    margin-left: -15%;
+    padding-top: 2rem;
+}
+.vit-img
+{
+    border-radius: 10rem;
+    padding:1rem;
+    padding-top: 16px;
+}
+.right-content
+{
+    padding-top: 2rem;
+
+}
 
 @media only screen and (max-width:700px){
     html
