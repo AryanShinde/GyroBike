@@ -289,7 +289,7 @@ font-family: poppins;
 {
     align-items: center;
     top: 10%;
-    margin-left: 39%;
+    margin-left: 42%;
     height: 40%;
 }
 
@@ -396,6 +396,12 @@ font-family: poppins;
     }
     .gif{
         margin-left: 23%;
+    }
+    .mySlides
+    {
+        width: 550px;
+        padding: 1rem;
+        margin-left: 2rem;
     }
 
 }
