@@ -285,13 +285,21 @@ font-family: poppins;
 
 }
 
+.gif
+{
+    align-items: center;
+    top: 10%;
+    margin-left: 39%;
+    height: 40%;
+}
+
 @media only screen and (max-width:700px){
     html
-{
+    {
     font-size: 18px;
     overflow: none;
 
-}
+    }
     .col-1{
         width: 100%;
         margin: 0%;
@@ -349,6 +357,45 @@ font-family: poppins;
     .flexbox-1{
         flex-wrap: wrap;
     }
+
+    .under-logo
+    {
+        font-size: 10px;
+        margin-left: -14%;
+        padding-left: -20px;
+    }
    
+    .left-content
+    {
+    justify-content: left;
+    margin-left: -30%;
+    padding-top: 2rem;
+    
+    }
+    .vit-img
+    {
+    width: 100px;
+    border-radius: 10rem;
+    padding:1rem;
+    padding-top: 16px;
+    }
+    .right-content
+    {
+    padding-top: 2rem;
+    font-size: 10px;
+    padding-right: 1rem;
+
+    }
+    .footer{
+    height: 300px;
+    }
+    .vit-img
+    {
+    padding-left: -20px;
+    margin-left: 20%;
+    }
+    .gif{
+        margin-left: 23%;
+    }
 
 }
