@@ -405,3 +405,11 @@ font-family: poppins;
     }
 
 }
+
+@media only screen and (max-width:1200px){
+    .centered
+    {
+        font-size: 15px;
+    }
+    
+}
