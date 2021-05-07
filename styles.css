@@ -405,6 +405,19 @@ font-family: poppins;
     }
 
 }
+.sanskruti
+{
+    width: 200px;
+}
+.aryan
+{
+    width: 200px;
+}
+.student-imgs
+{
+    margin-right: 2%;
+
+}
 
 @media only screen and (max-width:1200px){
     .centered
